@@ -24,6 +24,7 @@ a {
     color: inherit;
 }
 
+
 /* =========================
    NAVBAR
 ========================= */
@@ -36,6 +37,7 @@ header {
     background: rgba(5, 6, 10, 0.92);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    transition: background 0.3s ease;
 }
 
 nav {
@@ -74,6 +76,7 @@ nav {
     color: #e63946;
 }
 
+
 /* =========================
    HERO
 ========================= */
@@ -105,7 +108,10 @@ nav {
             rgba(230, 57, 70, 0.18),
             transparent 35%
         ),
-        linear-gradient(transparent 70%, #08090d);
+        linear-gradient(
+            transparent 70%,
+            #08090d
+        );
     pointer-events: none;
 }
 
@@ -164,7 +170,7 @@ nav {
 
 .btn-primary {
     background: #e63946;
-    color: white;
+    color: #fff;
 }
 
 .btn-primary:hover {
@@ -181,6 +187,7 @@ nav {
     border-color: #e63946;
     color: #e63946;
 }
+
 
 /* =========================
    SECTION
@@ -215,6 +222,7 @@ section {
     max-width: 650px;
     margin-top: 10px;
 }
+
 
 /* =========================
    CHARACTERS
@@ -269,6 +277,7 @@ section {
     margin-top: 10px;
 }
 
+
 /* =========================
    CASES
 ========================= */
@@ -310,6 +319,7 @@ section {
     font-size: 14px;
 }
 
+
 /* =========================
    QUOTE
 ========================= */
@@ -348,6 +358,7 @@ section {
 .quote p {
     color: #aaa;
 }
+
 
 /* =========================
    ABOUT
@@ -388,6 +399,7 @@ section {
     margin-bottom: 15px;
 }
 
+
 /* =========================
    FOOTER
 ========================= */
@@ -408,6 +420,7 @@ footer p {
     font-size: 13px;
 }
 
+
 /* =========================
    RESPONSIVE
 ========================= */
@@ -425,6 +438,7 @@ footer p {
         grid-template-columns: 1fr;
     }
 }
+
 
 @media (max-width: 650px) {
 
@@ -455,6 +469,10 @@ footer p {
     .section-title h2 {
         font-size: 32px;
     }
+
+    .about-text h2 {
+        font-size: 32px;
+    }
 }
 ```
-  
+   
